@@ -22,14 +22,14 @@ function setClick() {
     var cells = document.getElementsByTagName("td");
     console.log(cells);
     for (var i = 0; i < cells.length; i++) {
-        cells[i].onclick = function() {
-          this.innerText = clickTd();
+        cells[i].onclick = function () {
+            this.innerText = clickTd();
             this.style.background = "green";
         }
     }
 }
 
-function clickTd(){
+function clickTd() {
     return prompt("novo valor");
 }
 
