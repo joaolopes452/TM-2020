@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ballTutorial.unity
+    guid: e8845778802c8b247ace4bbdd7950c45
   m_configObjects: {}
